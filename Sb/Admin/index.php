@@ -1,0 +1,10 @@
+<html>
+    <head>
+        <title>Admin</title>
+    </head>
+    <body>
+    	<p>{{message}}</p>
+        {{>foo}}
+        {{>bar}}
+    </body>
+</html>

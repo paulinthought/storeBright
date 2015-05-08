@@ -1,0 +1,8 @@
+{
+    "storeone" : {"modules" : ["sessions", "catalog", "services"]},
+    "services" : {
+        "storeService" : {"type" : "soap", "url" : "http://localhost:8080/SBSessions/SBStore?WSDL", "modules" : [""], "credentials" : ""}
+        },
+    "sessions" : {"type" : "memcached" },
+    "caching" : [{"type" : "memcache", "location" : "http://localhost"}, {"type" : "filesystem", "location" : "c:\\Windows\\Temp\\"}]
+}

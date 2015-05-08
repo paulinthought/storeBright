@@ -1,0 +1,7 @@
+{
+    "storeone" : {"modules" : ["catalog", "sessions", "caching"]},
+    "services" : {
+        "sessionService" : {"type" : "soap", "url" : "http://localhost:8080/SBSessions/SBSessions?WSDL", "modules" : ["sessions"], "credentials" : ""},
+        "storeService" : {"type" : "soap", "url" : "http://localhost:8080/SBSessions/SBStore?WSDL", "modules" : [""], "credentials" : ""}
+        }
+}
